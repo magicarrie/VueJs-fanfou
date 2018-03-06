@@ -1,0 +1,133 @@
+html {
+    background:rgba(0,0,0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size:125%;
+    font-family: "Arial","微软雅黑","黑体","_sans";
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing:border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th {
+    text-align: inherit;
+}
+
+fieldset, img {
+    border: 0
+}
+
+iframe {
+    display: block
+}
+
+abbr, acronym {
+    border: 0;
+    font-variant: normal
+}
+
+del {
+    text-decoration: line-through
+}
+
+address, caption, cite, code, dfn, em, th, var, i, b {
+    font-style: normal;
+
+}
+
+ol, ul {
+    list-style: none
+}
+
+h1, h2, h3, h4, h5, h6, b {
+    font-size: inherit;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: ''
+}
+a {color:inherit;}
+/*a:visited, a:hover {
+    color: inherit;
+    text-decoration: none
+}*/
+
+html {
+    height: 100%
+}
+
+body {
+    min-height: 100%
+}
+
+input, select, textarea {
+   font-size: inherit;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+     font-size: inherit;
+     color:inherit;
+}
+
+ins, a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a，input, textarea{
+    color: inherit;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+input {
+    background:no-repeat 0 0 scroll #fff;
+    border:none;
+    outline:medium; /* 在浏览器下面，点击input输入时，会有边框，只要在样式中应用：outline:medium;即可去掉边框。 */
+    padding:0; /*input默认有上下padding*/
+}
+
+input,select,textarea {
+    font-family: "Arial","微软雅黑","黑体","_sans";
+    color:inherit;
+}
+/* 隐藏滚动条 */
+::-webkit-scrollbar { width: 0; }
+input:not([type="checkbox"]), select, textarea { outline: none; border: none; -webkit-appearance: none; }
+
+.clearfix::after{
+	content:"";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
